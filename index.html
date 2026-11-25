@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gabriela Martins — Nutricionista | Saúde, performance e estética</title>
+  <meta name="description" content="Acompanhamento nutricional personalizado para saúde, performance e estética, respeitando sua rotina e o seu jeito de viver. Agende uma conversa pelo WhatsApp.">
+  <meta name="theme-color" content="#EFE9E4">
+
+  <!-- Compartilhamento (preencha og:url depois de publicar; og:image precisa do endereço completo do site) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Gabriela Martins — Nutricionista">
+  <meta property="og:description" content="Nutrição para transformar sua relação com o cuidado. Saúde, performance e estética.">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="assets/fotos/gabriela-hero.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="preload" as="image" href="assets/fotos/gabriela-hero.jpg" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Símbolos SVG: monograma GM e ícone do WhatsApp -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="gm" viewBox="0 0 600 600">
+      <path d="M473.6 504.8A270 270 0 1 1 544.7 412.1" fill="none" stroke="currentColor" style="stroke-width:var(--gm-ring,3.2)"/>
+      <path fill="currentColor" d="M229.5 179.6A114 125 0 1 0 256.6 378.4L256.4 375.6A101 121 0 1 1 232.4 183.2Z"/>
+      <path d="M255 379Q284 362 285 336L285 300" fill="none" stroke="currentColor" style="stroke-width:var(--gm-stem,8)"/>
+      <path d="M230 300H297" fill="none" stroke="currentColor" style="stroke-width:var(--gm-thin,3.5)"/>
+      <path fill="currentColor" d="M234 176C300 255 370 365 430 425C470 465 510 482 545 487C505 489 462 473 421 438C356 384 292 264 228 180Z"/>
+      <path d="M372 352L492 160" fill="none" stroke="currentColor" style="stroke-width:var(--gm-stem2,12)"/>
+      <path d="M480 160H508" fill="none" stroke="currentColor" style="stroke-width:var(--gm-thin,3.5)"/>
+      <path d="M470 168V392" fill="none" stroke="currentColor" style="stroke-width:var(--gm-thin,4)"/>
+      <circle cx="470" cy="410" r="5" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24">
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3.5 20.5l1.4-4.3A8.5 8.5 0 1 1 20.5 11.6z"/>
+      <path fill="currentColor" d="M9.1 7.6c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.7c.1.2.1.4 0 .5l-.4.6c-.1.2-.2.3 0 .6.4.7 1.4 1.8 2.6 2.3.3.1.4.1.6-.1l.6-.7c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.4.4 0 .5-.1 1.2-.7 1.6-.5.4-1.3.6-2.2.3-1.1-.3-2.7-1-4-2.6-1.2-1.4-1.6-2.6-1.6-3.4 0-.8.3-1.4.6-1.6z"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- 1. HEADER ================================================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Gabriela Martins, Nutricionista — voltar ao início">
+        <svg class="gm gm--sm" aria-hidden="true"><use href="#gm"/></svg>
+        <span class="brand__text">Gabriela Martins<small>Nutricionista</small></span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#atendimentos">Atendimentos</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="https://wa.me/" data-wa>Falar pelo WhatsApp</a>
+        <p class="nav__note">Saúde, performance &amp; estética</p>
+        <p class="nav__insta" data-instagram-item><a href="https://www.instagram.com/nutrigabifl/" data-instagram data-instagram-handle target="_blank" rel="noopener">@nutrigabifl</a></p>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="https://wa.me/" data-wa>Falar pelo WhatsApp</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 2. HERO ================================================= -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow" data-reveal>Nutricionista Gabriela Martins</p>
+          <h1 class="hero__title" id="hero-title" data-reveal>
+            Nutrição para transformar <em>sua relação</em> com o cuidado.
+          </h1>
+          <p class="hero__lead" data-reveal>
+            Acompanhamento personalizado para saúde, performance e estética, respeitando sua rotina e o seu jeito de viver.
+          </p>
+          <div class="hero__actions" data-reveal>
+            <a class="btn btn--primary" href="https://wa.me/" data-wa>
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              Agendar conversa pelo WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#objetivos">Conhecer o acompanhamento</a>
+          </div>
+        </div>
+
+        <div class="hero__media" data-reveal>
+          <div class="hero__orbit" aria-hidden="true" data-tilt="-10"><span></span></div>
+          <div class="hero__tilt" data-tilt="8">
+            <figure class="photo photo--arch" data-photo="hero">
+              <div class="photo__placeholder" aria-hidden="true">
+                <svg class="gm gm--xl"><use href="#gm"/></svg>
+                <span class="photo__label">Foto da Gabriela</span>
+              </div>
+            </figure>
+          </div>
+          <span class="hero__badge" aria-hidden="true"><svg class="gm"><use href="#gm"/></svg></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FAIXA DE POSICIONAMENTO =============================== -->
+    <section class="pillars" aria-label="Pilares do atendimento">
+      <div class="container">
+        <ul class="pillars__list">
+          <li>Saúde</li>
+          <li class="pillars__dot" aria-hidden="true"></li>
+          <li>Performance</li>
+          <li class="pillars__dot" aria-hidden="true"></li>
+          <li>Estética</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. SOBRE ================================================= -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-title">
+      <div class="container about__grid">
+        <div class="about__media" data-reveal>
+          <figure class="photo photo--soft" data-photo="sobre">
+            <div class="photo__placeholder" aria-hidden="true">
+              <svg class="gm gm--xl"><use href="#gm"/></svg>
+              <span class="photo__label">Foto da Gabriela em ambiente natural</span>
+            </div>
+          </figure>
+          <figure class="photo about__detail" data-photo="sobreDetalhe" data-parallax="-0.06">
+            <div class="photo__placeholder" aria-hidden="true"><svg class="gm gm--md"><use href="#gm"/></svg></div>
+          </figure>
+          <span class="about__line" aria-hidden="true"></span>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow" data-reveal>Sobre Gabriela</p>
+          <h2 class="section-title" id="sobre-title" data-reveal>
+            Um acompanhamento pensado para <em>a sua realidade</em>
+          </h2>
+          <div class="about__text" data-reveal>
+            <p>
+              Gabriela Martins é nutricionista e conduz um acompanhamento que começa pela escuta:
+              entender sua rotina, suas preferências, seus objetivos e o momento que você está vivendo.
+            </p>
+            <p>
+              Em vez de regras rígidas ou fórmulas prontas, o trabalho constrói estratégias alimentares
+              que cabem no seu dia a dia — seja o foco saúde, performance ou estética.
+            </p>
+          </div>
+          <blockquote class="about__quote" data-reveal>
+            <p>“O objetivo é encontrar um jeito possível, consciente e sustentável de cuidar da alimentação.”</p>
+            <footer>Gabriela Martins</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ÁREAS DE ATENDIMENTO ================================== -->
+    <section class="section areas" id="atendimentos" aria-labelledby="areas-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Áreas de atendimento</p>
+          <h2 class="section-title" id="areas-title">Cuidado alinhado <em>ao que importa</em> para você</h2>
+        </header>
+
+        <div class="areas__grid">
+          <a class="area area--beige" href="#objetivos" data-goal-link="saude" data-reveal>
+            <figure class="area__media photo" data-photo="saude">
+              <div class="photo__placeholder photo__placeholder--icon" aria-hidden="true">
+                <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="44"/><path d="M38 84c0-28 17-44 46-46-2 29-18 46-46 46z"/><path d="M38 84l32-32"/></svg>
+              </div>
+            </figure>
+            <div class="area__body">
+              <span class="area__num">01</span>
+              <h3 class="area__title">Saúde</h3>
+              <p>Estratégias alimentares adaptadas à rotina, preferências e necessidades individuais.</p>
+              <span class="area__more">Ver como funciona <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <a class="area area--light" href="#objetivos" data-goal-link="performance" data-reveal>
+            <figure class="area__media photo" data-photo="performance">
+              <div class="photo__placeholder photo__placeholder--icon" aria-hidden="true">
+                <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="44"/><path d="M28 74c10 0 12-20 22-20s10 14 19 14 11-24 23-24"/><circle cx="92" cy="44" r="3"/></svg>
+              </div>
+            </figure>
+            <div class="area__body">
+              <span class="area__num">02</span>
+              <h3 class="area__title">Performance</h3>
+              <p>Suporte nutricional para quem deseja melhorar energia, treino, recuperação e consistência.</p>
+              <span class="area__more">Ver como funciona <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <a class="area area--olive" href="#objetivos" data-goal-link="estetica" data-reveal>
+            <figure class="area__media photo" data-photo="estetica">
+              <div class="photo__placeholder photo__placeholder--icon" aria-hidden="true">
+                <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="44"/><circle cx="60" cy="49" r="14"/><circle cx="49" cy="67" r="14"/><circle cx="71" cy="67" r="14"/></svg>
+              </div>
+            </figure>
+            <div class="area__body">
+              <span class="area__num">03</span>
+              <h3 class="area__title">Estética</h3>
+              <p>Acompanhamento alinhado aos objetivos estéticos, sempre com equilíbrio e respeito ao corpo.</p>
+              <span class="area__more">Ver como funciona <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5b. SEÇÃO INTERATIVA: QUAL É O SEU OBJETIVO? ============== -->
+    <section class="section goals" id="objetivos" aria-labelledby="goals-title">
+      <div class="container">
+        <header class="goals__head" data-reveal>
+          <p class="eyebrow">Para você</p>
+          <h2 class="section-title" id="goals-title">Qual é o seu <em>objetivo</em> hoje?</h2>
+          <p class="goals__intro">Escolha um caminho e veja como o acompanhamento se adapta a ele.</p>
+        </header>
+
+        <div class="goals__tabs" role="tablist" aria-label="Escolha seu objetivo" data-reveal>
+          <button class="goals__tab" type="button" role="tab" id="tab-saude" aria-controls="panel-saude" aria-selected="true" data-goal="saude">
+            <span class="goals__tab-num">01</span><span class="goals__tab-name">Saúde</span><span class="goals__bar" aria-hidden="true"></span>
+          </button>
+          <button class="goals__tab" type="button" role="tab" id="tab-performance" aria-controls="panel-performance" aria-selected="false" tabindex="-1" data-goal="performance">
+            <span class="goals__tab-num">02</span><span class="goals__tab-name">Performance</span><span class="goals__bar" aria-hidden="true"></span>
+          </button>
+          <button class="goals__tab" type="button" role="tab" id="tab-estetica" aria-controls="panel-estetica" aria-selected="false" tabindex="-1" data-goal="estetica">
+            <span class="goals__tab-num">03</span><span class="goals__tab-name">Estética</span><span class="goals__bar" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="goals__stage" data-reveal>
+          <!-- Saúde -->
+          <div class="goal is-active" role="tabpanel" id="panel-saude" aria-labelledby="tab-saude" tabindex="0">
+            <div class="goal__art" aria-hidden="true">
+              <svg viewBox="0 0 400 340">
+                <circle class="art-bg" cx="200" cy="180" r="130"/>
+                <circle class="draw art-line" cx="200" cy="180" r="150" pathLength="1"/>
+                <g class="art-sun"><circle cx="300" cy="80" r="16" class="art-fill"/><path class="art-line" d="M300 52v-10M300 118v-10M272 80h-10M338 80h-10M280 60l-7-7M327 107l-7-7M280 100l-7 7M327 53l-7 7"/></g>
+                <g class="art-sprout">
+                  <path class="draw art-line" pathLength="1" d="M200 205C200 175 204 150 214 124"/>
+                  <path class="draw art-leaf" pathLength="1" d="M214 124C228 104 252 98 268 102C262 120 240 134 214 124Z"/>
+                  <path class="draw art-line" pathLength="1" d="M196 205C190 182 176 166 156 156"/>
+                  <path class="draw art-leaf" pathLength="1" d="M156 156C140 140 122 138 108 144C116 160 136 166 156 156Z"/>
+                  <path class="draw art-line" pathLength="1" d="M206 205C214 190 226 182 242 178"/>
+                  <path class="draw art-leaf" pathLength="1" d="M242 178C252 166 266 164 276 168C270 180 258 184 242 178Z"/>
+                </g>
+                <path class="draw art-bowl" pathLength="1" d="M108 205H292C288 256 248 282 200 282C152 282 112 256 108 205Z"/>
+                <path class="draw art-line" pathLength="1" d="M172 292H228"/>
+                <g class="art-seeds"><circle cx="150" cy="232" r="3"/><circle cx="176" cy="246" r="3"/><circle cx="228" cy="240" r="3"/><circle cx="252" cy="228" r="3"/><circle cx="202" cy="252" r="3"/></g>
+              </svg>
+            </div>
+            <div class="goal__content">
+              <h3 class="goal__title">Cuidar da saúde <em>com leveza</em></h3>
+              <p class="goal__lead">Para quem quer organizar a alimentação, ter mais disposição no dia a dia e construir hábitos que se sustentam.</p>
+              <ul class="goal__chips">
+                <li>Rotina e horários</li><li>Preferências alimentares</li><li>Histórico de saúde</li><li>Hábitos possíveis</li>
+              </ul>
+              <ol class="goal__path">
+                <li><strong>Na conversa</strong> entendemos sua rotina, seu histórico e o que hoje dificulta o cuidado.</li>
+                <li><strong>No plano</strong> você recebe orientações práticas, com refeições que cabem no seu dia.</li>
+                <li><strong>No acompanhamento</strong> os ajustes acontecem conforme a sua vida acontece.</li>
+              </ol>
+              <a class="btn btn--primary" href="https://wa.me/" data-wa data-wa-message="Olá, Gabriela! Vim pelo seu site e tenho interesse no acompanhamento com foco em saúde. Podemos conversar? 🌿">
+                <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+                Quero começar pela saúde
+              </a>
+            </div>
+          </div>
+
+          <!-- Performance -->
+          <div class="goal" role="tabpanel" id="panel-performance" aria-labelledby="tab-performance" tabindex="0" hidden>
+            <div class="goal__art" aria-hidden="true">
+              <svg viewBox="0 0 400 340">
+                <circle class="art-bg" cx="200" cy="180" r="130"/>
+                <circle class="draw art-line" cx="200" cy="180" r="150" pathLength="1"/>
+                <path id="perf-path" class="art-dots" d="M60 270C150 270 200 130 330 92"/>
+                <circle class="art-runner" r="7"><animateMotion dur="5s" repeatCount="indefinite" rotate="auto"><mpath href="#perf-path"/></animateMotion></circle>
+                <g class="art-pulse-ring"><circle cx="330" cy="92" r="18" class="art-fill"/><circle class="ring" cx="330" cy="92" r="18"/><circle class="ring ring--2" cx="330" cy="92" r="18"/></g>
+                <path class="draw art-beat" pathLength="1" d="M70 200H140L154 172L168 230L184 146L200 214L212 200H330"/>
+                <g class="art-bars">
+                  <rect x="128" y="250" width="14" height="30" rx="7"/><rect x="156" y="238" width="14" height="42" rx="7"/><rect x="184" y="226" width="14" height="54" rx="7"/><rect x="212" y="214" width="14" height="66" rx="7"/>
+                </g>
+              </svg>
+            </div>
+            <div class="goal__content">
+              <h3 class="goal__title">Energia para treinar <em>e se recuperar</em></h3>
+              <p class="goal__lead">Para quem treina e quer mais consistência, energia para a rotina e uma recuperação melhor entre os treinos.</p>
+              <ul class="goal__chips">
+                <li>Rotina de treinos</li><li>Pré e pós-treino</li><li>Recuperação</li><li>Constância</li>
+              </ul>
+              <ol class="goal__path">
+                <li><strong>Na conversa</strong> olhamos seus treinos, horários e objetivos de desempenho.</li>
+                <li><strong>No plano</strong> a alimentação é organizada em torno da sua rotina ativa.</li>
+                <li><strong>No acompanhamento</strong> as estratégias evoluem junto com os seus treinos.</li>
+              </ol>
+              <a class="btn btn--primary" href="https://wa.me/" data-wa data-wa-message="Olá, Gabriela! Vim pelo seu site e tenho interesse no acompanhamento com foco em performance. Podemos conversar? 🌿">
+                <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+                Quero focar em performance
+              </a>
+            </div>
+          </div>
+
+          <!-- Estética -->
+          <div class="goal" role="tabpanel" id="panel-estetica" aria-labelledby="tab-estetica" tabindex="0" hidden>
+            <div class="goal__art" aria-hidden="true">
+              <svg viewBox="0 0 400 340">
+                <circle class="art-bg" cx="200" cy="180" r="130"/>
+                <circle class="draw art-line" cx="200" cy="180" r="150" pathLength="1"/>
+                <g class="art-ripples"><circle cx="200" cy="160" r="40"/><circle cx="200" cy="160" r="40"/><circle cx="200" cy="160" r="40"/></g>
+                <path class="draw art-line" pathLength="1" d="M200 196V296"/>
+                <path class="draw art-leaf" pathLength="1" d="M200 262C180 236 152 232 136 240C146 262 174 270 200 262Z"/>
+                <path class="draw art-leaf" pathLength="1" d="M200 240C220 214 248 210 264 218C254 240 226 248 200 240Z"/>
+                <g class="art-flower">
+                  <ellipse cx="200" cy="122" rx="14" ry="36"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(45 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(90 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(135 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(180 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(225 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(270 200 160)"/><ellipse cx="200" cy="122" rx="14" ry="36" transform="rotate(315 200 160)"/>
+                </g>
+                <circle class="art-fill" cx="200" cy="160" r="12"/>
+              </svg>
+            </div>
+            <div class="goal__content">
+              <h3 class="goal__title">Objetivos estéticos <em>com equilíbrio</em></h3>
+              <p class="goal__lead">Para quem tem objetivos estéticos e quer caminhar até eles com respeito ao corpo, sem restrições extremas.</p>
+              <ul class="goal__chips">
+                <li>Objetivos individuais</li><li>Equilíbrio</li><li>Autocuidado</li><li>Sem extremismos</li>
+              </ul>
+              <ol class="goal__path">
+                <li><strong>Na conversa</strong> entendemos o que você busca e o que é realista para o seu momento.</li>
+                <li><strong>No plano</strong> as estratégias respeitam suas preferências e o seu corpo.</li>
+                <li><strong>No acompanhamento</strong> a evolução é observada com cuidado e sem cobranças.</li>
+              </ol>
+              <a class="btn btn--primary" href="https://wa.me/" data-wa data-wa-message="Olá, Gabriela! Vim pelo seu site e tenho interesse no acompanhamento com foco em estética. Podemos conversar? 🌿">
+                <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+                Quero cuidar da estética
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. COMO FUNCIONA ========================================= -->
+    <section class="section steps" id="como-funciona" aria-labelledby="steps-title">
+      <div class="container steps__grid">
+        <header class="steps__head" data-reveal>
+          <p class="eyebrow">Como funciona</p>
+          <h2 class="section-title" id="steps-title">Um processo leve, <em>passo a passo</em></h2>
+          <p class="steps__intro">Cada etapa é construída junto com você, no seu ritmo.</p>
+        </header>
+
+        <div class="steps__body">
+          <ol class="timeline" data-timeline>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__num" aria-hidden="true">1</span>
+              <div>
+                <h3>Conversa inicial</h3>
+                <p>Entendimento da rotina, objetivos e necessidades.</p>
+              </div>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__num" aria-hidden="true">2</span>
+              <div>
+                <h3>Plano personalizado</h3>
+                <p>Orientações construídas de acordo com a realidade de cada paciente.</p>
+              </div>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__num" aria-hidden="true">3</span>
+              <div>
+                <h3>Acompanhamento contínuo</h3>
+                <p>Ajustes, escuta e evolução ao longo do processo.</p>
+              </div>
+            </li>
+          </ol>
+          <div class="steps__cta" data-reveal>
+            <a class="btn btn--primary" href="https://wa.me/" data-wa>Quero conhecer o acompanhamento</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. DIFERENCIAIS ========================================== -->
+    <section class="section values" aria-labelledby="values-title">
+      <div class="container values__grid">
+        <header class="values__head" data-reveal>
+          <p class="eyebrow">Diferenciais</p>
+          <h2 class="section-title" id="values-title">O que guia <em>cada atendimento</em></h2>
+        </header>
+        <ol class="values__list">
+          <li data-reveal><span class="values__num">01</span>Atendimento individualizado</li>
+          <li data-reveal><span class="values__num">02</span>Escuta sem julgamentos</li>
+          <li data-reveal><span class="values__num">03</span>Estratégias possíveis para a rotina</li>
+          <li data-reveal><span class="values__num">04</span>Orientação baseada em objetivos reais</li>
+          <li data-reveal><span class="values__num">05</span>Acompanhamento próximo e humano</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 8. FRASE DE IDENTIFICAÇÃO ================================ -->
+    <section class="statement" aria-labelledby="statement-title">
+      <div class="statement__rings" aria-hidden="true" data-parallax="-0.05"></div>
+      <div class="container statement__grid">
+        <figure class="photo statement__photo" data-photo="frase" data-reveal>
+          <div class="photo__placeholder" aria-hidden="true"><svg class="gm gm--xl"><use href="#gm"/></svg></div>
+        </figure>
+        <div class="statement__inner">
+          <h2 class="statement__title" id="statement-title" data-reveal>
+            Você não precisa esperar a segunda-feira, o momento perfeito ou uma nova fase para <em>começar a cuidar de si.</em>
+          </h2>
+          <p class="statement__text" data-reveal>Vamos conversar sobre o que faz sentido para você?</p>
+          <div data-reveal>
+            <a class="btn btn--light" href="https://wa.me/" data-wa>Falar com Gabriela</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FAQ =================================================== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <header class="faq__head" data-reveal>
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section-title" id="faq-title">Perguntas <em>frequentes</em></h2>
+          <p class="faq__help">Ficou com outra dúvida? <a href="https://wa.me/" data-wa>Fale pelo WhatsApp</a>.</p>
+        </header>
+
+        <div class="faq__list" data-reveal>
+          <details class="faq__item">
+            <summary>Como funciona a primeira consulta?</summary>
+            <div class="faq__answer"><p>É um momento de conversa para entender sua rotina, seu histórico, suas preferências alimentares e seus objetivos. A partir dessas informações, os próximos passos do acompanhamento são definidos com você. Detalhes como duração e preparo são informados no agendamento.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>O atendimento é presencial ou online?</summary>
+            <div class="faq__answer"><p>As modalidades de atendimento disponíveis são informadas no contato pelo WhatsApp, junto com os horários livres.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>O acompanhamento é indicado para quem treina?</summary>
+            <div class="faq__answer"><p>Sim. O acompanhamento pode considerar a rotina de treinos, os objetivos de desempenho e a recuperação, sempre de forma individualizada.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Preciso seguir uma dieta restritiva?</summary>
+            <div class="faq__answer"><p>Esse não é o ponto de partida. A proposta é construir estratégias alimentares possíveis para a sua rotina, respeitando suas preferências e necessidades.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Como faço para agendar?</summary>
+            <div class="faq__answer"><p>Basta enviar uma mensagem pelo WhatsApp. Você recebe as informações sobre os horários disponíveis e sobre como funciona o acompanhamento.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>O plano alimentar é personalizado?</summary>
+            <div class="faq__answer"><p>Sim. As orientações são construídas a partir da avaliação individual, considerando rotina, objetivos, preferências e necessidades de cada pessoa.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CTA FINAL ============================================ -->
+    <section class="final-cta" id="contato" aria-labelledby="final-title">
+      <svg class="gm final-cta__mark" aria-hidden="true" data-parallax="0.05"><use href="#gm"/></svg>
+      <div class="container final-cta__grid">
+        <figure class="photo photo--arch final-cta__photo" data-photo="contato" data-reveal>
+          <div class="photo__placeholder" aria-hidden="true"><svg class="gm gm--xl"><use href="#gm"/></svg></div>
+        </figure>
+        <div class="final-cta__inner">
+          <h2 class="final-cta__title" id="final-title" data-reveal>Seu cuidado pode começar <em>com uma conversa.</em></h2>
+          <p class="final-cta__text" data-reveal>Entre em contato pelo WhatsApp para conhecer os horários disponíveis e entender qual acompanhamento combina com o seu momento.</p>
+          <div data-reveal>
+            <a class="btn btn--light" href="https://wa.me/" data-wa>
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+          <p class="final-cta__alt" data-reveal data-instagram-item>
+            Ou acompanhe a rotina e as dicas no Instagram
+            <a href="https://www.instagram.com/nutrigabifl/" data-instagram data-instagram-handle target="_blank" rel="noopener">@nutrigabifl</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. RODAPÉ =================================================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <svg class="gm gm--lg" aria-hidden="true"><use href="#gm"/></svg>
+        <div>
+          <p class="footer__name">Gabriela Martins — Nutricionista</p>
+          <p class="footer__tag">Saúde, performance &amp; estética</p>
+        </div>
+      </div>
+
+      <ul class="footer__links">
+        <li><a href="https://wa.me/" data-wa><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a></li>
+        <li data-instagram-item><a href="https://www.instagram.com/nutrigabifl/" data-instagram target="_blank" rel="noopener" aria-label="Instagram da Gabriela (@nutrigabifl)">
+          <svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a></li>
+        <li data-info="crn" hidden></li>
+        <li data-info="address" hidden></li>
+        <li data-info="email" hidden></li>
+      </ul>
+    </div>
+    <div class="container footer__bottom">
+      <p class="footer__disclaimer">O conteúdo deste site é informativo e não substitui a avaliação nutricional individual.</p>
+      <p>© <span data-year>2026</span> Gabriela Martins. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão fixo de WhatsApp -->
+  <a class="wa-float" href="https://wa.me/" data-wa aria-label="Falar pelo WhatsApp">
+    <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span>Falar pelo WhatsApp</span>
+  </a>
+</body>
+</html>
